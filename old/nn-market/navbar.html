@@ -1,0 +1,77 @@
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #614863">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./" style="font-family: 'Lobster'">
+      <img src="./img/favicon-32x32.png" /> НН Маркет</a
+    >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      Меню
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="./catalog/new"><i class="fa fa-rss"></i> Новинки</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./catalog/sale"><i class="fa fa-percent"></i> Акции</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./catalog"><i class="fa fa-list"></i> Смотреть весь каталог</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Наши соцсети
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="https://vk.com" target="_blanc"
+                ><i class="fa fa-vk" style="color: #4a76a8"></i> Группа ВКонтакте</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://ok.ru" target="_blanc"
+                ><i class="fa fa-odnoklassniki" style="color: #ffab49"></i> Мы в Одноклассниках</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://vk.me/smartproger" target="_blanc"
+            ><i class="fa fa-question-circle-o"></i> Написать в поддержку</a
+          >
+        </li>
+
+        <li class="nav-item text-end" id="logInLi">
+          <a href="./" class="nav-link"
+            ><i class="fa fa-sign-in"></i> Войти
+            <img src="./img/camera.png" style="border-radius: 50%; max-width: 40px"
+          /></a>
+        </li>
+
+        <li class="nav-item text-end" id="logOutLi" hidden="true">
+          <a href="./" class="nav-link" id="logOutHref" hidden="true"
+            ><i class="fa fa-sign-out"></i> Выйти</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
